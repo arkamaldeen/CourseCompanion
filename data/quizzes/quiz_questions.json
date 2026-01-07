@@ -1,0 +1,213 @@
+{
+  "quizzes": {
+    "xm-cloud-101": {
+      "title": "XM Cloud Fundamentals Quiz",
+      "passing_score": 70,
+      "time_limit_minutes": 30,
+      "questions": [
+        {
+          "id": "xm-q1",
+          "question": "What is the primary purpose of XM Cloud?",
+          "options": [
+            "Database management",
+            "Headless content management and delivery",
+            "Email marketing",
+            "Customer relationship management"
+          ],
+          "correct": 1,
+          "topic": "fundamentals",
+          "difficulty": "easy"
+        },
+        {
+          "id": "xm-q2",
+          "question": "Which framework is commonly used with XM Cloud for frontend development?",
+          "options": [
+            "Angular only",
+            "Vue.js only",
+            "Next.js with JSS",
+            "PHP"
+          ],
+          "correct": 2,
+          "topic": "development",
+          "difficulty": "medium"
+        },
+        {
+          "id": "xm-q3",
+          "question": "What does 'headless' mean in the context of XM Cloud?",
+          "options": [
+            "No user interface at all",
+            "Content is separated from presentation",
+            "Only works without a database",
+            "Requires no authentication"
+          ],
+          "correct": 1,
+          "topic": "architecture",
+          "difficulty": "easy"
+        },
+        {
+          "id": "xm-q4",
+          "question": "How are components typically created in XM Cloud?",
+          "options": [
+            "Only through the UI",
+            "Using SQL scripts",
+            "As React/Next.js components with Sitecore integration",
+            "Through XML configuration only"
+          ],
+          "correct": 2,
+          "topic": "development",
+          "difficulty": "medium"
+        },
+        {
+          "id": "xm-q5",
+          "question": "What is the deployment model for XM Cloud?",
+          "options": [
+            "On-premise only",
+            "SaaS (Software as a Service)",
+            "Self-hosted required",
+            "Desktop application"
+          ],
+          "correct": 1,
+          "topic": "deployment",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    "search-fundamentals": {
+      "title": "Sitecore Search Fundamentals Quiz",
+      "passing_score": 70,
+      "time_limit_minutes": 20,
+      "questions": [
+        {
+          "id": "search-q1",
+          "question": "What is the primary function of an index in Sitecore Search?",
+          "options": [
+            "Store user passwords",
+            "Enable fast content retrieval",
+            "Manage user sessions",
+            "Handle authentication"
+          ],
+          "correct": 1,
+          "topic": "indexing",
+          "difficulty": "easy"
+        },
+        {
+          "id": "search-q2",
+          "question": "What are facets in search?",
+          "options": [
+            "Error messages",
+            "Categories for filtering search results",
+            "Database tables",
+            "User permissions"
+          ],
+          "correct": 1,
+          "topic": "facets",
+          "difficulty": "easy"
+        },
+        {
+          "id": "search-q3",
+          "question": "What is boosting in search queries?",
+          "options": [
+            "Making searches slower",
+            "Increasing relevance of certain results",
+            "Removing results",
+            "Encrypting queries"
+          ],
+          "correct": 1,
+          "topic": "optimization",
+          "difficulty": "medium"
+        },
+        {
+          "id": "search-q4",
+          "question": "When should you rebuild a search index?",
+          "options": [
+            "Never",
+            "After significant content changes or schema updates",
+            "Every minute",
+            "Only on weekends"
+          ],
+          "correct": 1,
+          "topic": "indexing",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    "content-hub-101": {
+      "title": "Content Hub Basics Quiz",
+      "passing_score": 70,
+      "time_limit_minutes": 25,
+      "questions": [
+        {
+          "id": "ch-q1",
+          "question": "What is the primary use case for Content Hub DAM?",
+          "options": [
+            "Code deployment",
+            "Digital asset management",
+            "User authentication",
+            "Email sending"
+          ],
+          "correct": 1,
+          "topic": "dam",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-q2",
+          "question": "What does CMP stand for in Content Hub?",
+          "options": [
+            "Code Management Platform",
+            "Content Marketing Platform",
+            "Customer Management Portal",
+            "Central Media Player"
+          ],
+          "correct": 1,
+          "topic": "cmp",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-q3",
+          "question": "How do workflows help in Content Hub?",
+          "options": [
+            "They slow down processes",
+            "They automate content review and approval processes",
+            "They delete content automatically",
+            "They prevent any changes"
+          ],
+          "correct": 1,
+          "topic": "workflows",
+          "difficulty": "medium"
+        },
+        {
+          "id": "ch-q4",
+          "question": "What types of assets can Content Hub manage?",
+          "options": [
+            "Only images",
+            "Only videos",
+            "Multiple asset types including images, videos, documents",
+            "Only PDFs"
+          ],
+          "correct": 2,
+          "topic": "dam",
+          "difficulty": "easy"
+        },
+        {
+          "id": "ch-q5",
+          "question": "What is the benefit of Content Hub's integration capabilities?",
+          "options": [
+            "It cannot integrate with other systems",
+            "It enables connection with other marketing and content tools",
+            "It only works standalone",
+            "Integration removes all features"
+          ],
+          "correct": 1,
+          "topic": "integration",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "total_quizzes": 3
+  }
+}
+
